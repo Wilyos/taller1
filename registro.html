@@ -5,23 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
+            <ol>
                 <li>
                     <a href="index.html">Indice</a>
                 </li>
                 <li>
                     <a href="multimedia.html">Multimedia</a>
                 </li>
-            </ul>
+            </ol>
         </nav>
     </header>
     <hr>
     <main>
+        <form>
+            <label for="correoElectronico">Ingrese su correo electronico:</label>
+            <input type="text" id="correoElectronico" name="correoElectronico" placeholder="sober@xxx">
 
+            <label for="password">contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="123">
+
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" placeholder="Juan">
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apeillidos" name="apellidos" placeholder="Jaramillo">
+            <button type="submit"> Aceptar</button>
+
+            <p> 
+                El respeto a la intimidad del usuario de este sitio web es un aspecto esencial para nosotros. Le rogamos que lea detenidamente esta Declaración sobre Privacidad para conocer la forma en que recogemos y utilizamos sus datos personales.
+
+                Esta Declaración sobre privacidad es de aplicación a toda la información de carácter personal recogida y utilizada por nosotros de forma responsable de la parte correspondiente del sitio web. La Declaración sobre Privacidad consta de que se respetara su intimidad y cumplira las disposiciones de la legislación sobre la privacidad de datos, y si fuera aplicable, la legislación de protección de datos local.
+
+                <input type="checkbox"id="cajaDeChequeo" name="cajaDeChequeo">
+                <label for="cajaDeChequeo">Acepto la declaracion de privacidad</label>
+
+
+            </p>
+        </form>
     </main>
     <hr>
     <footer>
